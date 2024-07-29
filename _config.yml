@@ -1,2 +1,6 @@
 theme: minima
 markdown: kramdown
+title: 作品ページ
+description: GitHub Pagesでホストされているサイトです
+baseurl: "" # リポジトリがルートにある場合は空白にします
+url: "https://sakai8121.github.io"
