@@ -1,39 +1,28 @@
+/* 全体のレイアウトを中央揃えにする */
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    min-height: 100vh;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  text-align: center; /* テキストを中央揃え */
+  margin: 0 auto;
+  max-width: 800px; /* コンテンツの最大幅を設定 */
+  line-height: 1.6; /* 行間を調整 */
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
-    margin: 0 auto;
+/* 各ゲームセクションのスタイル */
+.game-section {
+  margin-bottom: 40px; /* 各セクションの間隔 */
+  padding: 20px;
+  border: 1px solid #ccc; /* セクション区切り線 */
+  border-radius: 8px; /* 角を丸くする */
+  background-color: #f9f9f9; /* 背景色 */
 }
 
-dl {
-    width: 60%;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
+/* 見出しのスタイル */
+.game-section h2 {
+  color: #4b0082; /* 見出しの色 */
+  margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-    dl {
-        width: 90%;
-    }
-    h1 {
-        font-size: 1.5em;
-    }
+/* 概要と学んだことを分ける */
+.game-section .summary, .game-section .lesson {
+  text-align: left; /* テキストを左揃え */
+  margin-bottom: 10px;
 }
