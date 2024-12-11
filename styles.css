@@ -1,5 +1,9 @@
-/* styles.css */
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -8,38 +12,28 @@ body {
 }
 
 h1 {
-    color: #333;
     text-align: center;
     padding: 20px;
     background: #fff;
     border-bottom: 1px solid #ccc;
+    margin: 0 auto;
 }
 
 dl {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-dt {
-    font-size: 1.2em;
-    margin-top: 20px;
-    color: #333;
-}
-
-dd {
-    margin-left: 20px;
-    color: #555;
-}
-
-a {
-    text-decoration: none;
-    color: #007BFF;
-}
-
-a:hover {
-    text-decoration: underline;
+@media (max-width: 768px) {
+    dl {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
 }
