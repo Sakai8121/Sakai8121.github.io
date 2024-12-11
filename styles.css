@@ -2,7 +2,7 @@
 body {
   text-align: center; /* テキストを中央揃え */
   margin: 0 auto;
-  max-width: 800px; /* コンテンツの最大幅を設定 */
+  max-width: 1000px; /* コンテンツの最大幅を設定 */
   line-height: 1.6; /* 行間を調整 */
 }
 
