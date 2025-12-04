@@ -1,7 +1,7 @@
 - title: "DarkFactory"
   id: "darkfactory"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
-  url: "https://store.steampowered.com/app/3893390/DarkFactory/" # SteamのURL
+  url: "https://store.steampowered.com/app/3893390/DarkFactory" # SteamのURL
   action_label: "Steam Page" # ボタンの文字を変更
   period: "制作中 (リリース予定)"
   role: "個人制作 / チーム制作" # 適切な方に書き換え
