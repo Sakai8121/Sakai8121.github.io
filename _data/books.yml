@@ -2,28 +2,28 @@
 - title: "Adaptive Code"
   author: "Gary McLean Hall"
   status: "read"
-  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=Adaptive+Code"
+  cover: "assets/images/books/AdaptiveCode.jpg"
   comment: |
     C#実践開発手法。SOLID原則やデザインパターンを、実際の開発現場に適応させるための考え方を学びました。
 
 - title: "ゲームフルデザイン"
-  author: "ジェイン・マクゴニガル"
+  author: "Gary McLean Hall 他"
   status: "read"
-  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=Gameful"
+  cover: "assets/images/books/ゲームフルデザイン.jpg"
   comment: |
     ゲームのメカニズムを現実世界の問題解決に応用する考え方。ユーザー体験（UX）設計の参考にしています。
 
 - title: "スクウェア・エニックスのAI"
-  author: "三宅 陽一郎 他"
+  author: "スクウェア・エニックス"
   status: "read"
-  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=SQEX+AI"
+  cover: "assets/images/books/スクウェア・エニックスのAI.jpg"
   comment: |
-    デジタルゲームにおける人工知能の技術体系を学習。メタAI、キャラクターAI、スパーシャルAIの階層構造への理解を深めました。
+    実際の技術例を見てAIがどのようにゲーム制作に活かされるのかの一部を勉強できました。
 
 - title: "リーダブルコード"
-  author: "Dustin Boswell"
+  author: "ダスティン・ボズウェル 他"
   status: "read"
-  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=Readable"
+  cover: "assets/images/books/リーダブルコード.jpg"
   comment: |
     チーム開発における可読性の重要性を再認識した一冊。命名規則やコメントの書き方は、日々のコーディングで常に意識しています。
 
@@ -31,41 +31,41 @@
 - title: "3Dゲームを面白くする技術"
   author: "大野 功二"
   status: "reading"
-  cover: "https://placehold.co/200x280/333/00f0ff?text=3D+Tech"
+  cover: "assets/images/books/3Dゲームを面白くする技術.jpg"
   comment: |
-    実例から学ぶゲームメカニクス。
+    実例から学ぶゲームメカニクスを勉強中。
 
 - title: "Game Programming Patterns"
-  author: "Robert Nystrom"
+  author: "Robert Nystrom, 武舎広幸 他"
   status: "reading"
-  cover: "https://placehold.co/200x280/333/00f0ff?text=Patterns"
+  cover: "assets/images/books/Game Programming Patterns.jpg"
   comment: |
-    ゲーム開発特有のデザインパターン（State, Component, Flyweightなど）を習得中。
+    ゲーム開発特有のデザインパターン（State, Component, Flyweightなど）を習得したい。
 
 - title: "セガ基礎線形代数講座"
-  author: "セガ エンジニアリング"
+  author: "山中 勇毅"
   status: "reading"
-  cover: "https://placehold.co/200x280/333/00f0ff?text=SEGA+Math"
+  cover: "assets/images/books/セガ基礎線形代数講座.jpg"
   comment: |
-    3Dプログラミングに必須となる線形代数を、ゲーム実装の視点から再学習しています。
+    3Dプログラミングに必須となる線形代数を、ゲーム実装の視点から再学習したい。
 
 - title: "レベルデザインの教科書"
-  author: "ルドルフ・クレムス"
+  author: "クリストファー・トッテン 他"
   status: "reading"
-  cover: "https://placehold.co/200x280/333/00f0ff?text=Level+Design"
+  cover: "assets/images/books/レベルデザインの教科書.jpg"
   comment: |
     プレイヤーを飽きさせないマップ設計や難易度曲線の作り方を研究中。
 
 - title: "ゲームを動かす技術と発想 R"
   author: "堂前 嘉樹"
   status: "reading"
-  cover: "https://placehold.co/200x280/333/00f0ff?text=Game+Mech+R"
+  cover: "assets/images/books/ゲームを動かす技術と発想 R.jpg"
   comment: |
-    メモリ管理や高速化など、コンソールゲーム開発に近い低レイヤーな知識を吸収しています。
+    メモリ管理や高速化など、コンソールゲーム開発に近い低レイヤーな知識を吸収したい。
 
 - title: "ゲームプログラマのためのコーディング技術"
-  author: "大坂 泰弘"
+  author: "大圖 衛玄"
   status: "reading"
-  cover: "https://placehold.co/200x280/333/00f0ff?text=Coding+Tech"
+  cover: "assets/images/books/ゲームプログラマのためのコーディング技術.jpg"
   comment: |
-    C++を中心とした、バグを生みにくくパフォーマンスの高いコード設計を学習中。
+    C++を中心とした、バグを生みにくくパフォーマンスの高いコード設計を学習したい。
