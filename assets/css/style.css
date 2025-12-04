@@ -338,3 +338,31 @@ footer {
     color: var(--accent-secondary);
     background-color: rgba(255, 255, 255, 0.05);
 }
+
+/* --- Sub Links (Google Play etc) --- */
+.sub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.sub-link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: transparent;
+    border: 1px solid var(--accent-secondary);
+    color: var(--accent-secondary);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.sub-link-btn:hover {
+    background-color: var(--accent-secondary);
+    color: #000; /* 文字色を黒に反転 */
+    transform: translateY(-2px);
+}
