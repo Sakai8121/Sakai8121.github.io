@@ -282,3 +282,59 @@ footer {
     display: block;       /* これを入れると強制的に改行されます */
     margin-bottom: 8px;   /* 本文との間に少し隙間を空ける */
 }
+
+/* --- 追加機能のスタイル --- */
+
+/* 役割（Role）の表示 */
+.role-info {
+    font-size: 0.85rem;
+    color: var(--accent-secondary); /* B案のシアン色を使用 */
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.role-info i {
+    opacity: 0.8;
+}
+
+/* Learning & Feedback の折りたたみ制御 */
+.learning-text {
+    transition: max-height 0.5s ease;
+    overflow: hidden;
+}
+
+/* 閉じている状態（collapsedクラスがある時） */
+.learning-text.collapsed {
+    max-height: 100px; /* ここで「閉じたときの高さ」を決めます */
+    position: relative;
+    /* 下の方をグラデーションで薄くする演出 */
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+}
+
+/* 続きを読むボタン */
+.read-more-btn {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 5px;
+    background: none;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-sub);
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.read-more-btn:hover {
+    color: var(--accent-secondary);
+    background-color: rgba(255, 255, 255, 0.05);
+}
