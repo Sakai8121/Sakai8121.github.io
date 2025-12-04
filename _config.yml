@@ -1,6 +1,4 @@
-theme: minima
-markdown: kramdown
-title: 作品ページ
-description: GitHub Pagesでホストされているサイトです
-baseurl: "" # リポジトリがルートにある場合は空白にします
+title: Sakai Portfolio
+description: Portfolio of Unity Engineer
+baseurl: "" 
 url: "https://sakai8121.github.io"
