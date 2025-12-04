@@ -1,3 +1,82 @@
+- title: "DarkFactory"
+  id: "darkfactory"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
+  url: "https://store.steampowered.com/app/your_id/" # SteamのURL
+  action_label: "Steam Page" # ボタンの文字を変更
+  period: "制作中 (リリース予定)"
+  role: "個人制作 / チーム制作" # 適切な方に書き換え
+  tech_stack: ["Unity", "C#", "Steam API"]
+  description: |
+    Steamでのリリースを目指して現在開発中の作品です。
+    （ここにゲームのジャンルや、特に力を入れているポイントなどを追記予定）
+  learning: |
+    **商業リリースへの挑戦**
+    Steamworksの連携や、有償販売に耐えうる品質管理など、Web公開とは異なるハードルに挑戦しています。
+
+- title: "UnbelievableAntKingdom"
+  id: "ant"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Ant+Kingdom"
+  url: "https://unityroom.com/games/your_game" # メインはUnityRoom
+  action_label: "Play (Web)"
+  # ★ここが新機能：サブリンク（Google Play用）
+  sub_links:
+    - label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=com.yourname.ant"
+      icon: "fab fa-google-play"
+  period: "制作期間 (時期)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "Android"]
+  description: |
+    Google PlayおよびUnityRoomで公開中のシミュレーションゲーム。
+    （ゲームの内容を追記予定）
+  learning: |
+    **モバイル向けの最適化**
+    PCブラウザ版だけでなく、Android端末でのタッチ操作やパフォーマンス最適化（軽量化）について学び、実装しました。
+
+- title: "Who am I"
+  id: "whoami"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Who+am+I"
+  url: "https://unityroom.com/games/your_game"
+  period: "1週間 (Unity1Week)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#"]
+  description: |
+    Unity1Week（お題：「〇〇」）参加作品。
+    （ゲームの内容を追記予定）
+  learning: |
+    **短期間でのコンセプト表現**
+    （学んだことを追記予定）
+
+- title: "タスクと罰"
+  id: "task_punishment"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Task+App"
+  url: "/assets/docs/task_presentation.pdf" # PDFへのパス
+  action_label: "View PDF" # 資料を見るボタンにする
+  period: "4か月 (授業制作)"
+  role: "個人制作"
+  tech_stack: ["Kotlin", "Android Studio", "App Dev"]
+  description: |
+    「タスクを完了できないと罰ゲームが発生する」というコンセプトのTo-Doアプリ。
+    授業課題として4か月かけて企画・設計・実装を行いました。
+  learning: |
+    **非ゲームアプリの設計思想**
+    ゲームループ（Update）ではなく、Androidのライフサイクルやイベント駆動の設計（Kotlin）を深く学びました。PDF資料にて詳細な仕様や設計図をまとめています。
+
+- title: "株式会社Bufff (アルバイト)"
+  id: "bufff"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Work+Experience"
+  url: "https://bufff.co.jp/" # 会社のURL（仮）
+  action_label: "Visit Company"
+  period: "現在勤務中"
+  role: "エンジニア (アルバイト)"
+  tech_stack: ["Unity", "Team Dev", "Real World"]
+  description: |
+    ゲーム開発会社にて、エンジニアとしてアルバイト勤務をしています。
+    （守秘義務の範囲内で、どのような業務に携わっているか、どういう姿勢で働いているかなどを追記予定）
+  learning: |
+    **実務でのチーム開発**
+    学校や個人制作とは異なる、プロの現場でのコード管理、スケジュール感、チームコミュニケーションの重要性を肌で感じながらスキルアップしています。
+
 - title: "MECHADOOM"
   id: "mechadoom"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=MECHADOOM"
