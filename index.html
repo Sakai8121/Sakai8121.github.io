@@ -1,0 +1,87 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Portfolio | {{ site.title }}</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="glitch" data-text="GAME PORTFOLIO">GAME PORTFOLIO</h1>
+            <p class="subtitle">Unity Engineer / Game Developer</p>
+            
+            <div class="profile-summary">
+                <p>
+                    Unityを用いたゲーム開発を中心に活動しています。<br>
+                    「操作していて気持ちいい手触り」と「堅牢な設計（MVP/UniRx）」の両立を目指しています。<br>
+                    スマートフォン・Steam向けのリリースを目標に、日々開発を続けています。
+                </p>
+            </div>
+
+            <div class="skills">
+                <span class="skill-tag">Unity</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">UniRx</span>
+                <span class="skill-tag">MVP Pattern</span>
+                <span class="skill-tag">Git/GitHub</span>
+                <span class="skill-tag">3D Action</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">WORKS</h2>
+        
+        <div class="game-grid">
+            {% for game in site.data.games %}
+            <article class="game-card">
+                <div class="card-image">
+                    <img src="{{ game.thumbnail }}" alt="{{ game.title }}">
+                    <div class="card-overlay">
+                        <a href="{{ game.url }}" target="_blank" class="play-btn">
+                            {% if game.download_required %}Download{% else %}Play Now{% endif %}
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="card-content">
+                    <div class="card-header">
+                        <h3>{{ game.title }}</h3>
+                        <span class="dev-period">{{ game.period }}</span>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        {% for tech in game.tech_stack %}
+                        <span class="tech-badge">{{ tech }}</span>
+                        {% endfor %}
+                    </div>
+
+                    <p class="description">{{ game.description }}</p>
+
+                    <div class="learning-point">
+                        <h4>LEARNING & FEEDBACK</h4>
+                        <p>{{ game.learning | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 sakai8121. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
