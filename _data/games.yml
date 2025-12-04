@@ -1,0 +1,120 @@
+- title: "MECHADOOM"
+  id: "mechadoom"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=MECHADOOM"
+  url: "https://bitsummit-gamejam.itch.io/mechadoom"
+  period: "3～4か月 (大学3年 夏)"
+  role: "リードプログラマ / 企画"
+  tech_stack: ["Unity", "C#", "3D Action", "Team Dev"]
+  description: |
+    BitSummit GameJamにて制作した3Dメカアクションゲーム。
+    東京・京都の学生混成チーム（5～7名）で開発を行い、**ゲームデザイン賞**を受賞しました。
+  learning: |
+    **チーム開発とUXの追求**
+    企画・実装の大部分を担当。チーム開発特有のコミュニケーションの難しさを経験しつつ、それを乗り越えて受賞できたことは大きな自信になりました。
+    技術面ではプレイフィール（操作感）を徹底的に調整。「ジャンプ中の空中制御」など、マリオのような「動かしているだけで気持ちいい挙動」のロジックを解析・実装し、操作性へのフィードバックを即座に反映させる開発サイクルを回しました。
+  download_required: true
+
+- title: "いないいないばあの達人"
+  id: "inaiinai"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Peek-a-boo"
+  url: "https://unityroom.com/games/proinaiinaibaa"
+  period: "1週間 (大学3年 年末)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "MVP Pattern", "UniRx"]
+  description: |
+    Unity1Week（お題：「ない」）参加作品。「シンプルな操作で最大限の面白さを」をテーマに制作。
+    あえて短期間で、設計パターンの学習にフォーカスして開発しました。
+  learning: |
+    **設計思想（MVPパターン）の実践**
+    これまで自己流だったコード構造を見直し、MVP（Model-View-Presenter）パターンとUniRx（リアクティブプログラミング）を導入。
+    これにより、ロジックと描画の責務が分離され、コードの可読性と保守性が劇的に向上しました。Unityroomのコメント欄での高評価も獲得でき、技術的挑戦とユーザー評価の両立を達成しました。
+
+- title: "フルスピードで走るのが犬の人生だった"
+  id: "fullspeeddog"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Full+Speed+Dog"
+  url: "https://unityroom.com/games/fullspeeddog"
+  period: "1か月 (大学3年 冬)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "Physics"]
+  description: |
+    大学祭（むつめ祭）展示用に制作したランゲーム。
+    ターゲットを「小学生」に絞り、説明不要で直感的に楽しめるゲームデザインを目指しました。
+  learning: |
+    **ターゲットユーザーに合わせたUI/UX設計**
+    「操作しているだけで楽しい」を目指し、犬の挙動制御と物理演算によるラグドール挙動を組み合わせました。
+    座標管理と物理演算のハイブリッド実装を行うことで、バグを抑えつつコミカルな動きを実現。実際の展示で子供たちが熱中して遊んでくれる様子から、ターゲット分析と実装のすり合わせの重要性を学びました。
+
+- title: "布団ちゃんフィッシング"
+  id: "futon"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Fishing"
+  url: "https://cluster.mu/w/db62ddec-6088-4017-ab77-e31180bc9460"
+  period: "3週間 (大学3年 春)"
+  role: "ソロ制作"
+  tech_stack: ["Cluster Creator Kit", "Metaverse"]
+  description: |
+    メタバースプラットフォームClusterのイベント向けに制作。
+    新しい開発環境（Cluster Creator Kit）の習得を兼ねて挑戦し、**ユースクリエイター賞 奨励賞**を受賞しました。
+  learning: |
+    **リソースマネジメントとスコープ調整**
+    3週間という短期間かつ未知のツールでの開発だったため、当初の企画から「コアとなる面白さ」以外を大胆に削ぎ落とす判断を行いました。
+    限られたリソース内で最大限の品質を出すための取捨選択（スコープ管理）の経験は、その後の開発進行において大きな糧となっています。
+
+- title: "FlyShooting"
+  id: "flyshooting"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=FlyShooting"
+  url: "https://unityroom.com/games/flyshooting"
+  period: "3か月 (大学2年 冬)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "FPS System", "3D Modeling"]
+  description: |
+    宇宙空間でのFPSシューティングゲーム。
+    企画性よりも「FPSのシステムを自作する」という技術的な挑戦を主軸に置いたプロジェクトです。
+  learning: |
+    **3Dアクションの基礎実装力**
+    FPS特有のカメラワーク、射撃ロジック、3Dモデルの自作など、ゲームを構成する要素をすべて一から実装しました。
+    既存のFPSゲームにある「当たり前の操作感」がいかに高度な調整の上に成り立っているかを痛感し、その後の「操作感へのこだわり」を持つきっかけとなった原点となる作品です。
+
+- title: "賽は投げられた"
+  id: "dicerun"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Dice+Run"
+  url: "https://unityroom.com/games/dicerun"
+  period: "3か月 (大学2年 夏)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "Puzzle Action"]
+  description: |
+    サイコロの出目によって挙動が変わるランアクションゲーム。
+    グリッド移動とパズル要素を組み合わせた高難易度アクションを目指しました。
+  learning: |
+    **物理演算とロジックの使い分け**
+    物理演算（Physics）に頼りすぎた結果、挙動が不安定になる課題に直面しました。
+    この失敗から、「確実な動作が必要な部分はロジック（座標計算）で管理し、演出部分のみ物理演算を使う」という実装の鉄則を学びました。また、難易度調整（レベルデザイン）の難しさを肌で感じた経験でもあります。
+
+- title: "MenkoBattle"
+  id: "menko"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Menko+Battle"
+  url: "https://unityroom.com/games/menkobattle"
+  period: "3か月 (大学1年 冬)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "3D"]
+  description: |
+    初めて制作した3Dゲーム。「デジタルめんこ」での読み合いをコンセプトにした対戦ゲームです。
+    2人対戦およびCOM戦を実装しました。
+  learning: |
+    **「体験」のデジタル化の難しさ**
+    「めんこを叩きつける」というアナログな感覚を、ボタン操作やマウス入力でどう表現するかについて試行錯誤しました。
+    プレイヤーへのフィードバック（音、エフェクト、カメラの揺れ）が「手触り感」に直結することを学び、UI/UXデザインへの関心を持つきっかけとなりました。
+
+- title: "RatioPazle"
+  id: "ratio"
+  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Ratio+Puzzle"
+  url: "./RatioPazleWebgl/"
+  period: "3か月 (大学1年 夏)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C#", "2D Puzzle"]
+  description: |
+    記念すべき処女作。「比（Ratio）」をテーマにした直感型パズルRPG。
+    モンストやパズドラのような「引っ張って離す」操作感をUnityで再現することを目指しました。
+  learning: |
+    **ゲームメカニクスの検証**
+    「コンボの爽快感」を意図してシステムを作りましたが、完成後のテストプレイで「自動化されすぎてプレイヤーの介入余地が少ない」という課題を発見しました。
+    「プレイヤーが自分で操作したからこそ楽しい」と感じさせるゲームデザインの重要性に気づくことができた、重要な第一歩です。
