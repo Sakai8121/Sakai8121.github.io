@@ -371,35 +371,38 @@ footer {
 /* --- Books Section --- */
 .book-grid {
     display: grid;
-    /* 幅が狭くなっても崩れないように自動調整 */
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 30px;
+    /* 変更点1: 400pxだと大きすぎたので300pxに縮小。これで2〜3列並びます */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; /* 隙間を少し詰める */
     margin-bottom: 80px;
 }
 
 .book-card {
     background-color: var(--card-bg);
-    border: 1px solid rgba(255, 255, 255, 0.1); /* 薄い枠線 */
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    padding: 20px;
+    padding: 15px; /* 内側の余白を少しスリムに */
     display: flex;
-    gap: 20px;
+    gap: 15px; /* 画像と文字の隙間を調整 */
     transition: transform 0.2s;
+    /* 変更点2: 高さがバラバラにならないよう、高さを揃える設定を追加 */
+    height: 100%; 
 }
 
 .book-card:hover {
     transform: translateY(-3px);
-    border-color: var(--accent-secondary); /* ホバー時に枠線が光る */
+    border-color: var(--accent-secondary);
+    background-color: rgba(255, 255, 255, 0.05); /* ホバー時に少し明るく */
 }
 
 /* 本の表紙（左側） */
 .book-cover {
-    flex-shrink: 0; /* 縮まないようにする */
-    width: 100px;
-    height: 140px; /* 本っぽい縦横比 */
+    flex-shrink: 0;
+    width: 80px;  /* 少し小さくして全体のバランスを取る */
+    height: 112px; /* 縦横比 1:1.4 */
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.3); /* 影をつけて立体的に */
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 
 .book-cover img {
@@ -412,36 +415,38 @@ footer {
 .book-info {
     display: flex;
     flex-direction: column;
+    width: 100%; /* 横幅いっぱい使う */
 }
 
 .book-info h4 {
-    color: var(--text-main); /* B案なら白、A案なら黒 */
-    font-size: 1.1rem;
-    margin-bottom: 5px;
+    color: var(--text-main);
+    font-size: 1rem; /* タイトルが大きすぎないように */
+    margin-bottom: 3px;
+    line-height: 1.3;
 }
 
 .book-author {
-    font-size: 0.85rem;
-    color: var(--text-sub); /* グレー */
-    margin-bottom: 12px;
+    font-size: 0.75rem;
+    color: var(--accent-secondary); /* 著者名に色をつけて見やすく */
+    margin-bottom: 8px;
     display: block;
 }
 
 .book-comment {
-    font-size: 0.9rem;
-    color: #bbb; /* 少し明るめのグレー */
+    font-size: 0.85rem;
+    color: #bbb;
     line-height: 1.5;
+    /* 長文対策: 文字が小さくなりすぎないように調整 */
 }
 
-/* スマホ表示の調整 */
+/* スマホ表示の調整（ここはそのまま） */
 @media (max-width: 600px) {
     .book-grid {
-        grid-template-columns: 1fr; /* スマホなら1列 */
+        grid-template-columns: 1fr;
     }
     .book-card {
-        flex-direction: column; /* 縦並びに変更 */
-        align-items: center;
-        text-align: center;
+        flex-direction: row; /* スマホでも横並びのままが見やすい場合が多い */
+        align-items: flex-start;
     }
 }
 
