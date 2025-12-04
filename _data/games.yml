@@ -50,7 +50,7 @@
 - title: "タスクと罰"
   id: "task_punishment"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Task+App"
-  url: "/assets/docs/exp_app_task.pdf" # PDFへのパス
+  url: "/assets/docs/task_presentation.pdf" # PDFへのパス
   action_label: "View PDF" # 資料を見るボタンにする
   period: "4か月 (授業制作)"
   role: "個人制作"
