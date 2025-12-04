@@ -1,7 +1,7 @@
 - title: "DarkFactory"
   id: "darkfactory"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
-  url: "https://store.steampowered.com/app/your_id/" # SteamのURL
+  url: "https://store.steampowered.com/app/3893390/DarkFactory/" # SteamのURL
   action_label: "Steam Page" # ボタンの文字を変更
   period: "制作中 (リリース予定)"
   role: "個人制作 / チーム制作" # 適切な方に書き換え
@@ -16,12 +16,12 @@
 - title: "UnbelievableAntKingdom"
   id: "ant"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Ant+Kingdom"
-  url: "https://unityroom.com/games/your_game" # メインはUnityRoom
+  url: "https://unityroom.com/games/unbelievable-ant" # メインはUnityRoom
   action_label: "Play (Web)"
   # ★ここが新機能：サブリンク（Google Play用）
   sub_links:
     - label: "Google Play"
-      url: "https://play.google.com/store/apps/details?id=com.yourname.ant"
+      url: "https://play.google.com/store/apps/details?id=com.ant.UnbelievableAntKingdom"
       icon: "fab fa-google-play"
   period: "制作期間 (時期)"
   role: "ソロ制作"
@@ -36,7 +36,7 @@
 - title: "Who am I"
   id: "whoami"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Who+am+I"
-  url: "https://unityroom.com/games/your_game"
+  url: "https://unityroom.com/games/whoam_i"
   period: "1週間 (Unity1Week)"
   role: "ソロ制作"
   tech_stack: ["Unity", "C#"]
@@ -50,7 +50,7 @@
 - title: "タスクと罰"
   id: "task_punishment"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Task+App"
-  url: "/assets/docs/task_presentation.pdf" # PDFへのパス
+  url: "/assets/docs/exp_app_task.pdf" # PDFへのパス
   action_label: "View PDF" # 資料を見るボタンにする
   period: "4か月 (授業制作)"
   role: "個人制作"
