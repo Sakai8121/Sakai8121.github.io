@@ -1,0 +1,71 @@
+# --- 読み終わった本 (status: read) ---
+- title: "Adaptive Code"
+  author: "Gary McLean Hall"
+  status: "read"
+  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=Adaptive+Code"
+  comment: |
+    C#実践開発手法。SOLID原則やデザインパターンを、実際の開発現場に適応させるための考え方を学びました。
+
+- title: "ゲームフルデザイン"
+  author: "ジェイン・マクゴニガル"
+  status: "read"
+  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=Gameful"
+  comment: |
+    ゲームのメカニズムを現実世界の問題解決に応用する考え方。ユーザー体験（UX）設計の参考にしています。
+
+- title: "スクウェア・エニックスのAI"
+  author: "三宅 陽一郎 他"
+  status: "read"
+  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=SQEX+AI"
+  comment: |
+    デジタルゲームにおける人工知能の技術体系を学習。メタAI、キャラクターAI、スパーシャルAIの階層構造への理解を深めました。
+
+- title: "リーダブルコード"
+  author: "Dustin Boswell"
+  status: "read"
+  cover: "https://placehold.co/200x280/2a2a35/7f00ff?text=Readable"
+  comment: |
+    チーム開発における可読性の重要性を再認識した一冊。命名規則やコメントの書き方は、日々のコーディングで常に意識しています。
+
+# --- これから読む・読んでいる本 (status: reading) ---
+- title: "3Dゲームを面白くする技術"
+  author: "大野 功二"
+  status: "reading"
+  cover: "https://placehold.co/200x280/333/00f0ff?text=3D+Tech"
+  comment: |
+    実例から学ぶゲームメカニクス。
+
+- title: "Game Programming Patterns"
+  author: "Robert Nystrom"
+  status: "reading"
+  cover: "https://placehold.co/200x280/333/00f0ff?text=Patterns"
+  comment: |
+    ゲーム開発特有のデザインパターン（State, Component, Flyweightなど）を習得中。
+
+- title: "セガ基礎線形代数講座"
+  author: "セガ エンジニアリング"
+  status: "reading"
+  cover: "https://placehold.co/200x280/333/00f0ff?text=SEGA+Math"
+  comment: |
+    3Dプログラミングに必須となる線形代数を、ゲーム実装の視点から再学習しています。
+
+- title: "レベルデザインの教科書"
+  author: "ルドルフ・クレムス"
+  status: "reading"
+  cover: "https://placehold.co/200x280/333/00f0ff?text=Level+Design"
+  comment: |
+    プレイヤーを飽きさせないマップ設計や難易度曲線の作り方を研究中。
+
+- title: "ゲームを動かす技術と発想 R"
+  author: "堂前 嘉樹"
+  status: "reading"
+  cover: "https://placehold.co/200x280/333/00f0ff?text=Game+Mech+R"
+  comment: |
+    メモリ管理や高速化など、コンソールゲーム開発に近い低レイヤーな知識を吸収しています。
+
+- title: "ゲームプログラマのためのコーディング技術"
+  author: "大坂 泰弘"
+  status: "reading"
+  cover: "https://placehold.co/200x280/333/00f0ff?text=Coding+Tech"
+  comment: |
+    C++を中心とした、バグを生みにくくパフォーマンスの高いコード設計を学習中。
