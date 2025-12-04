@@ -56,7 +56,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .profile-summary {
-    max-width: 700px;
+    max-width: 900px;  /* 900px または 100% に広げる */
     margin: 0 auto 30px;
     color: var(--text-sub);
 }
@@ -248,4 +248,37 @@ footer {
 @media (max-width: 600px) {
     .hero h1 { font-size: 2.2rem; }
     .card-header { flex-direction: column; }
+}
+
+/* --- Social Links --- */
+.social-links {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    color: var(--text-sub); /* B案に合わせて調整 */
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05); /* B案用の薄い背景 */
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+    color: #fff;
+    background-color: var(--accent-primary); /* ホバー時に紫にする */
+}
+
+/* 学んだこと（Learning）の中の強調文字を「ブロック」にして改行させる */
+.learning-point strong {
+    display: block;       /* これを入れると強制的に改行されます */
+    margin-bottom: 8px;   /* 本文との間に少し隙間を空ける */
 }
