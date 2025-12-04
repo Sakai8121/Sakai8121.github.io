@@ -116,7 +116,51 @@ layout: null
             </article>
             {% endfor %}
         </div>
-    </main>
+
+        <h2 class="section-title">BOOKS READ</h2>
+            <p style="text-align: center; margin-bottom: 30px; color: var(--text-sub);">
+                技術力向上のために読んだ本と、そこからの学び
+            </p>
+    
+            <div class="book-grid">
+                {% for book in site.data.books %}
+                    {% if book.status == 'read' %}
+                    <div class="book-card">
+                        <div class="book-cover">
+                            <img src="{{ book.cover }}" alt="{{ book.title }}">
+                        </div>
+                        <div class="book-info">
+                            <h4>{{ book.title }}</h4>
+                            <span class="book-author">{{ book.author }}</span>
+                            <p class="book-comment">{{ book.comment | newline_to_br }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+    
+            <h2 class="section-title" style="margin-top: 60px;">READING LIST</h2>
+            <p style="text-align: center; margin-bottom: 30px; color: var(--text-sub);">
+                現在学習中、または次に読む予定の技術書
+            </p>
+    
+            <div class="book-grid">
+                {% for book in site.data.books %}
+                    {% if book.status == 'reading' %}
+                    <div class="book-card reading-card"> <div class="book-cover">
+                            <img src="{{ book.cover }}" alt="{{ book.title }}">
+                            <div class="reading-badge">Reading</div>
+                        </div>
+                        <div class="book-info">
+                            <h4>{{ book.title }}</h4>
+                            <span class="book-author">{{ book.author }}</span>
+                            <p class="book-comment">{{ book.comment | newline_to_br }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+    </main> ```
 
     <footer>
         <div class="container">
