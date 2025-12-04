@@ -62,7 +62,13 @@ layout: null
                     <img src="{{ game.thumbnail }}" alt="{{ game.title }}">
                     <div class="card-overlay">
                         <a href="{{ game.url }}" target="_blank" class="play-btn">
-                            {% if game.download_required %}Download{% else %}Play Now{% endif %}
+                            {% if game.action_label %}
+                                {{ game.action_label }}
+                            {% elsif game.download_required %}
+                                Download
+                            {% else %}
+                                Play Now
+                            {% endif %}
                         </a>
                     </div>
                 </div>
@@ -82,6 +88,17 @@ layout: null
                         <span class="tech-badge">{{ tech }}</span>
                         {% endfor %}
                     </div>
+
+                    {% if game.sub_links %}
+                    <div class="sub-links">
+                        {% for link in game.sub_links %}
+                        <a href="{{ link.url }}" target="_blank" class="sub-link-btn">
+                            {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+                            {{ link.label }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
 
                     <p class="description">{{ game.description }}</p>
 
