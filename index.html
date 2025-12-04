@@ -72,6 +72,10 @@ layout: null
                         <h3>{{ game.title }}</h3>
                         <span class="dev-period">{{ game.period }}</span>
                     </div>
+
+                    <div class="role-info">
+                        <i class="fas fa-user-tag"></i> {{ game.role }}
+                    </div>
                     
                     <div class="tech-stack">
                         {% for tech in game.tech_stack %}
@@ -83,7 +87,13 @@ layout: null
 
                     <div class="learning-point">
                         <h4>LEARNING & FEEDBACK</h4>
-                        <p>{{ game.learning | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                        <div class="learning-text collapsed">
+                            {{ game.learning | markdownify }}
+                        </div>
+                        <button class="read-more-btn" onclick="toggleLearning(this)">
+                            <span class="btn-text">続きを読む</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
                     </div>
                 </div>
             </article>
@@ -96,6 +106,26 @@ layout: null
             <p>&copy; 2025 sakai8121. Hosted on GitHub Pages.</p>
         </div>
     </footer>
+<script>
+        function toggleLearning(button) {
+            // ボタンの親要素(learning-point)の中にあるテキストエリアを探す
+            const container = button.parentElement;
+            const textDiv = container.querySelector('.learning-text');
+            const icon = button.querySelector('i');
+            const btnText = button.querySelector('.btn-text');
 
+            // クラスを切り替える（開閉）
+            textDiv.classList.toggle('collapsed');
+            
+            // ボタンの文字とアイコンを切り替える
+            if (textDiv.classList.contains('collapsed')) {
+                btnText.textContent = "続きを読む";
+                icon.className = "fas fa-chevron-down";
+            } else {
+                btnText.textContent = "閉じる";
+                icon.className = "fas fa-chevron-up";
+            }
+        }
+    </script>
 </body>
 </html>
