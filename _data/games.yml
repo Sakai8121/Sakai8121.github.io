@@ -1,6 +1,12 @@
 - title: "DarkFactory"
   id: "darkfactory"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
+  # 共通部分（最後の数字の手前まで）
+  screenshot_base: "assets/images/games/DarkFactory_"
+  # 枚数（ここを3にすれば、sub_1, sub_2, sub_3 を読み込む）
+  screenshot_count: 0
+  # 拡張子（省略可能にするロジックも組めますが、書いておくのが無難）
+  screenshot_ext: ".png"
   url: "https://store.steampowered.com/app/3893390/DarkFactory" # SteamのURL
   action_label: "Steam Page" # ボタンの文字を変更
   period: "制作中 (リリース予定)"
@@ -15,7 +21,13 @@
 
 - title: "UnbelievableAntKingdom"
   id: "ant"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Ant+Kingdom"
+  thumbnail: "assets/images/games/UnbelievableAntKingdom_thumbnail"
+  # 共通部分（最後の数字の手前まで）
+  screenshot_base: "assets/images/games/UnbelievableAntKingdom_"
+  # 枚数（ここを3にすれば、sub_1, sub_2, sub_3 を読み込む）
+  screenshot_count: 11
+  # 拡張子（省略可能にするロジックも組めますが、書いておくのが無難）
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/unbelievable-ant" # メインはUnityRoom
   action_label: "Play (Web)"
   # ★ここが新機能：サブリンク（Google Play用）
@@ -35,7 +47,10 @@
 
 - title: "Who am I"
   id: "whoami"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Who+am+I"
+  thumbnail: "assets/images/games/WhoamI_thumbnail"
+  screenshot_base: "assets/images/games/WhoamI_"
+  screenshot_count: 3
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/whoam_i"
   period: "1週間 (Unity1Week)"
   role: "ソロ制作"
@@ -50,6 +65,9 @@
 - title: "タスクと罰"
   id: "task_punishment"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Task+App"
+  screenshot_base: "assets/images/games/TaskApp_"
+  screenshot_count: 0
+  screenshot_ext: ".png"
   url: "/assets/docs/task_presentation.pdf" # PDFへのパス
   action_label: "View PDF" # 資料を見るボタンにする
   period: "4か月 (授業制作)"
@@ -79,7 +97,10 @@
 
 - title: "MECHADOOM"
   id: "mechadoom"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=MECHADOOM"
+  thumbnail: "assets/images/games/MECHADOOM_thumbnail"
+  screenshot_base: "assets/images/games/MECHADOOM_"
+  screenshot_count: 7
+  screenshot_ext: ".png"
   url: "https://bitsummit-gamejam.itch.io/mechadoom"
   period: "3～4か月 (大学3年 夏)"
   role: "リードプログラマ / 企画"
@@ -96,7 +117,10 @@
 
 - title: "いないいないばあの達人"
   id: "inaiinai"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Peek-a-boo"
+  thumbnail: "assets/images/games/いないいないばあの達人_thumbnail"
+  screenshot_base: "assets/images/games/いないいないばあの達人_"
+  screenshot_count: 4
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/proinaiinaibaa"
   period: "1週間 (大学3年 年末)"
   role: "ソロ制作"
@@ -111,7 +135,10 @@
 
 - title: "フルスピードで走るのが犬の人生だった"
   id: "fullspeeddog"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Full+Speed+Dog"
+  thumbnail: "assets/images/games/フルスピードで走るのが犬の人生だった_thumbnail"
+  screenshot_base: "assets/images/games/フルスピードで走るのが犬の人生だった_"
+  screenshot_count: 5
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/fullspeeddog"
   period: "1か月 (大学3年 冬)"
   role: "ソロ制作"
@@ -126,7 +153,10 @@
 
 - title: "布団ちゃんフィッシング"
   id: "futon"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Fishing"
+  thumbnail: "assets/images/games/布団ちゃんフィッシング_thumbnail"
+  screenshot_base: "assets/images/games/布団ちゃんフィッシング_"
+  screenshot_count: 4
+  screenshot_ext: ".png"
   url: "https://cluster.mu/w/db62ddec-6088-4017-ab77-e31180bc9460"
   period: "3週間 (大学3年 春)"
   role: "企画、プログラム(一部の効果音を共同制作者から提供)"
@@ -141,7 +171,10 @@
 
 - title: "FlyShooting"
   id: "flyshooting"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=FlyShooting"
+  thumbnail: "assets/images/games/FlyShooting_thumbnail"
+  screenshot_base: "assets/images/games/FlyShooting_"
+  screenshot_count: 2
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/flyshooting"
   period: "3か月 (大学2年 冬)"
   role: "ソロ制作"
@@ -156,7 +189,10 @@
 
 - title: "賽は投げられた"
   id: "dicerun"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Dice+Run"
+  thumbnail: "assets/images/games/賽は投げられた_thumbnail"
+  screenshot_base: "assets/images/games/賽は投げられた_"
+  screenshot_count: 4
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/dicerun"
   period: "3か月 (大学2年 夏)"
   role: "ソロ制作"
@@ -171,7 +207,10 @@
 
 - title: "MenkoBattle"
   id: "menko"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Menko+Battle"
+  thumbnail: "assets/images/games/MenkoBattle_thumbnail"
+  screenshot_base: "assets/images/games/MenkoBattle_"
+  screenshot_count: 7
+  screenshot_ext: ".png"
   url: "https://unityroom.com/games/menkobattle"
   period: "3か月 (大学1年 冬)"
   role: "ソロ制作"
@@ -185,9 +224,12 @@
     しかし、「めんこを叩きつける」というアナログな感覚を、ボタン操作やマウス入力でもっとうまく表現するべきというフィードバックをもらった。
     ゲームの「手触り感」を表現する技術を習得する重要性を学び、「ゲームの手触り感」に関心を持つきっかけとなった。
 
-- title: "RatioPazle"
+- title: "RatioPuzzle"
   id: "ratio"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Ratio+Puzzle"
+  thumbnail: "assets/images/games/RatioPuzzle_thumbnail"
+  screenshot_base: "assets/images/games/RatioPuzzle_"
+  screenshot_count: 3
+  screenshot_ext: ".png"
   url: "/games/RatioPazleWebgl/"
   period: "3か月 (大学1年 夏)"
   role: "ソロ制作"
