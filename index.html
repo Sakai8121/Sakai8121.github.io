@@ -102,6 +102,13 @@ layout: null
 
                     <p class="description">{{ game.description }}</p>
 
+                    {% if game.screenshot_base and game.screenshot_count %}
+                    <div class="screenshot-gallery">
+                        {% for i in (1..game.screenshot_count) %}
+                            <img src="{{ game.screenshot_base }}{{ i }}{{ game.screenshot_ext }}" alt="screenshot {{ i }}" loading="lazy">
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                     <div class="learning-point">
                         <h4>LEARNING & FEEDBACK</h4>
                         <div class="learning-text collapsed">
