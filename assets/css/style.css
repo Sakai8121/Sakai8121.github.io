@@ -476,3 +476,25 @@ footer {
     border-style: dashed; /* 点線にして「進行中」感を出す */
     border-color: rgba(255, 255, 255, 0.2);
 }
+
+/* スクリーンショットギャラリー用のスタイル */
+.screenshot-gallery {
+    display: flex;
+    gap: 10px;               /* 画像同士の隙間 */
+    margin-bottom: 20px;     /* 下（学びボタン）との隙間 */
+    overflow-x: auto;        /* 横スクロール可能にする */
+    padding-bottom: 5px;     /* スクロールバーのための余白 */
+}
+
+.screenshot-gallery img {
+    height: 100px;           /* 高さを固定（PC/スマホ共通で見やすいサイズ） */
+    width: auto;             /* 横幅はなりゆき */
+    border-radius: 6px;      /* 角丸 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    flex-shrink: 0;          /* 画像が潰れないようにする */
+    transition: transform 0.2s;
+}
+
+.screenshot-gallery img:hover {
+    transform: scale(1.05);  /* マウスを乗せると少し拡大 */
+}
