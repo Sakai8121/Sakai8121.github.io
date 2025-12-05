@@ -21,7 +21,7 @@
 
 - title: "UnbelievableAntKingdom"
   id: "ant"
-  thumbnail: "assets/images/games/UnbelievableAntKingdom_thumbnail"
+  thumbnail: "assets/images/games/UnbelievableAntKingdom_thumbnail.png"
   # 共通部分（最後の数字の手前まで）
   screenshot_base: "assets/images/games/UnbelievableAntKingdom_"
   # 枚数（ここを3にすれば、sub_1, sub_2, sub_3 を読み込む）
@@ -47,7 +47,7 @@
 
 - title: "Who am I"
   id: "whoami"
-  thumbnail: "assets/images/games/WhoamI_thumbnail"
+  thumbnail: "assets/images/games/WhoamI_thumbnail.png"
   screenshot_base: "assets/images/games/WhoamI_"
   screenshot_count: 3
   screenshot_ext: ".png"
@@ -97,7 +97,7 @@
 
 - title: "MECHADOOM"
   id: "mechadoom"
-  thumbnail: "assets/images/games/MECHADOOM_thumbnail"
+  thumbnail: "assets/images/games/MECHADOOM_thumbnail.png"
   screenshot_base: "assets/images/games/MECHADOOM_"
   screenshot_count: 7
   screenshot_ext: ".png"
@@ -117,7 +117,7 @@
 
 - title: "いないいないばあの達人"
   id: "inaiinai"
-  thumbnail: "assets/images/games/いないいないばあの達人_thumbnail"
+  thumbnail: "assets/images/games/いないいないばあの達人_thumbnail.png"
   screenshot_base: "assets/images/games/いないいないばあの達人_"
   screenshot_count: 4
   screenshot_ext: ".png"
@@ -135,7 +135,7 @@
 
 - title: "フルスピードで走るのが犬の人生だった"
   id: "fullspeeddog"
-  thumbnail: "assets/images/games/フルスピードで走るのが犬の人生だった_thumbnail"
+  thumbnail: "assets/images/games/フルスピードで走るのが犬の人生だった_thumbnail.png"
   screenshot_base: "assets/images/games/フルスピードで走るのが犬の人生だった_"
   screenshot_count: 5
   screenshot_ext: ".png"
@@ -153,7 +153,7 @@
 
 - title: "布団ちゃんフィッシング"
   id: "futon"
-  thumbnail: "assets/images/games/布団ちゃんフィッシング_thumbnail"
+  thumbnail: "assets/images/games/布団ちゃんフィッシング_thumbnail.png"
   screenshot_base: "assets/images/games/布団ちゃんフィッシング_"
   screenshot_count: 4
   screenshot_ext: ".png"
@@ -171,7 +171,7 @@
 
 - title: "FlyShooting"
   id: "flyshooting"
-  thumbnail: "assets/images/games/FlyShooting_thumbnail"
+  thumbnail: "assets/images/games/FlyShooting_thumbnail.png"
   screenshot_base: "assets/images/games/FlyShooting_"
   screenshot_count: 2
   screenshot_ext: ".png"
@@ -189,7 +189,7 @@
 
 - title: "賽は投げられた"
   id: "dicerun"
-  thumbnail: "assets/images/games/賽は投げられた_thumbnail"
+  thumbnail: "assets/images/games/賽は投げられた_thumbnail.png"
   screenshot_base: "assets/images/games/賽は投げられた_"
   screenshot_count: 4
   screenshot_ext: ".png"
@@ -207,7 +207,7 @@
 
 - title: "MenkoBattle"
   id: "menko"
-  thumbnail: "assets/images/games/MenkoBattle_thumbnail"
+  thumbnail: "assets/images/games/MenkoBattle_thumbnail.png"
   screenshot_base: "assets/images/games/MenkoBattle_"
   screenshot_count: 7
   screenshot_ext: ".png"
@@ -226,7 +226,7 @@
 
 - title: "RatioPuzzle"
   id: "ratio"
-  thumbnail: "assets/images/games/RatioPuzzle_thumbnail"
+  thumbnail: "assets/images/games/RatioPuzzle_thumbnail.png"
   screenshot_base: "assets/images/games/RatioPuzzle_"
   screenshot_count: 3
   screenshot_ext: ".png"
