@@ -1,49 +1,44 @@
 - title: "DarkFactory"
   id: "darkfactory"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
-  # 共通部分（最後の数字の手前まで）
   screenshot_base: "assets/images/games/DarkFactory_"
-  # 枚数（ここを3にすれば、sub_1, sub_2, sub_3 を読み込む）
   screenshot_count: 0
-  # 拡張子（省略可能にするロジックも組めますが、書いておくのが無難）
   screenshot_ext: ".png"
-  url: "https://store.steampowered.com/app/3893390/DarkFactory" # SteamのURL
-  action_label: "Steam Page" # ボタンの文字を変更
+  url: "https://store.steampowered.com/app/3893390/DarkFactory"
+  action_label: "Steam Page"
   period: "制作中 (リリース予定)"
-  role: "個人制作 / チーム制作" # 適切な方に書き換え
-  tech_stack: ["Unity", "C#", "Steam API"]
+  role: "チーム制作 (リードエンジニア / 企画)"
+  tech_stack: ["Unreal Engine 5", "C++", "Steamworks", "Multiplayer"]
   description: |
-    Steamでのリリースを目指して現在開発中の作品です。
-    （ここにゲームのジャンルや、特に力を入れているポイントなどを追記予定）
+    Steamでの商業リリースを前提に開発中の、闇工場シミュレーションゲームです。
+    「実際に売れるクオリティ」と「収益化」を明確な目標として設定しています。ゲーム性は『Repo』や『Peak』のような協力プレイ作品を参考とし、友達と悪事をはたらいているようなマルチプレイ体験の提供を目指しています。
   learning: |
-    **商業リリースへの挑戦**
-    Steamworksの連携や、有償販売に耐えうる品質管理など、Web公開とは異なるハードルに挑戦しています。
+    **商業ベースの品質管理と技術的挑戦**
+    Steamworks SDKを用いた実績・ロビー機能の実装や、マルチプレイにおけるReplication（通信同期）処理の最適化に取り組んでいます。
+    また、Web公開作品とは異なり、有償販売に耐えうるデバッグ体制やユーザー体験（UX）の設計など、プロフェッショナルな製品開発プロセスを実践しています。
 
 - title: "UnbelievableAntKingdom"
   id: "ant"
   thumbnail: "assets/images/games/UnbelievableAntKingdom_thumbnail.png"
-  # 共通部分（最後の数字の手前まで）
   screenshot_base: "assets/images/games/UnbelievableAntKingdom_"
-  # 枚数（ここを3にすれば、sub_1, sub_2, sub_3 を読み込む）
   screenshot_count: 11
-  # 拡張子（省略可能にするロジックも組めますが、書いておくのが無難）
   screenshot_ext: ".png"
-  url: "https://unityroom.com/games/unbelievable-ant" # メインはUnityRoom
+  url: "https://unityroom.com/games/unbelievable-ant"
   action_label: "Play (Web)"
-  # ★ここが新機能：サブリンク（Google Play用）
   sub_links:
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=com.ant.UnbelievableAntKingdom"
       icon: "fab fa-google-play"
-  period: "制作期間 (時期)"
-  role: "ソロ制作"
-  tech_stack: ["Unity", "C#", "Android"]
+  period: "約1年半 (大学3年〜4年初頭)"
+  role: "チーム制作 (クライアント実装 / UI・演出担当)"
+  tech_stack: ["Unity", "C#", "Google Play Console", "Firebase"]
   description: |
-    Google PlayおよびUnityRoomで公開中のシミュレーションゲーム。
-    （ゲームの内容を追記予定）
+    Google PlayおよびUnityRoomにて公開中の、連鎖爆発で設計図を強化する新感覚パズルアクションゲームです。
+    「世界観・アート・操作感が統一された、一つのパッケージとして完成されたアプリ」をリリースすることを目標に開発しました。モバイル特有のタッチ操作や、没入感を高めるUI/UXデザインにこだわっています。
   learning: |
-    **モバイル向けの最適化**
-    PCブラウザ版だけでなく、Android端末でのタッチ操作やパフォーマンス最適化（軽量化）について学び、実装しました。
+    **モバイルアプリのリリースから運用まで**
+    企画・開発だけでなく、Google Play Consoleでのリリース手順、審査対応、Firebaseを用いた分析までを一貫して経験しました。
+    企画段階では共同制作者と議論を重ねましたが、最終的に「連鎖」というコアメカニクスを確立し、リリースまで完遂しました。次回作に向けて、リテンション（継続率）向上施策やマネタイズ設計の重要性を痛感し、分析を行っています。
 
 - title: "Who am I"
   id: "whoami"
@@ -54,13 +49,15 @@
   url: "https://unityroom.com/games/whoam_i"
   period: "1週間 (Unity1Week)"
   role: "ソロ制作"
-  tech_stack: ["Unity", "C#"]
+  tech_stack: ["Unity", "C#", "WebGL"]
   description: |
-    Unity1Week（お題：「〇〇」）参加作品。
-    （ゲームの内容を追記予定）
+    Unity1Week（お題：「あい」）への参加作品です。
+    画面上を動き回る大量の図形の中から、自分の操作（回転・加速）に同期して動く「自分（I）」を素早く見つけ出すゲームです。
+    ゲシュタルト崩壊のような視覚的感覚を利用し、シンプルながら「アハ体験」を感じられるゲームシステムをデザインしました。
   learning: |
-    **短期間でのコンセプト表現**
-    （学んだことを追記予定）
+    **短期間でのコアメカニクス検証**
+    1週間という限られた期間、かつ並行タスクがある中で、「面白さの核」を最小限のリソースで表現することに注力しました。
+    スコープ（開発範囲）を適切に管理し、期間内にバグの少ない状態で完成させるタイムマネジメント力と、要件定義力を養いました。
 
 - title: "タスクと罰"
   id: "task_punishment"
@@ -68,32 +65,35 @@
   screenshot_base: "assets/images/games/TaskApp_"
   screenshot_count: 0
   screenshot_ext: ".png"
-  url: "/assets/docs/task_presentation.pdf" # PDFへのパス
-  action_label: "View PDF" # 資料を見るボタンにする
+  url: "/assets/docs/task_presentation.pdf"
+  action_label: "View PDF"
   period: "4か月 (授業制作)"
-  role: "個人制作"
-  tech_stack: ["Kotlin", "Android Studio", "App Dev"]
+  role: "チーム制作 (メインプログラマ)"
+  tech_stack: ["Kotlin", "Android Studio", "Git", "MVVM"]
   description: |
-    「タスクを完了できないと罰ゲームが発生する」というコンセプトのTo-Doアプリ。
-    授業課題として4か月かけて企画・設計・実装を行いました。
+    「タスクを完了できないと罰ゲームが発生する」というゲーミフィケーション要素を取り入れたTo-Doアプリです。
+    大学の授業課題として4か月間、企画・設計・実装・テストの全工程を行いました。
+    全7チーム中、コンセプトの独自性と実装力が評価され「殊勲賞（MVP相当）」を受賞しました。
   learning: |
-    **非ゲームアプリの設計思想**
-    ゲームループ（Update）ではなく、Androidのライフサイクルやイベント駆動の設計（Kotlin）を深く学びました。PDF資料にて詳細な仕様や設計図をまとめています。
+    **Androidネイティブ開発とチームマネジメント**
+    Androidのライフサイクルやイベント駆動設計（Kotlin）、MVVMアーキテクチャなどを実地で学びました。
+    リードプログラマとして、Gitを用いたチーム開発フローの構築や、新言語（Kotlin）習得のサポートを主導。技術的な課題解決だけでなく、チームのモチベーション管理も含めたプロジェクト進行を経験しました。
 
-- title: "株式会社Bufff (アルバイト)"
+- title: "株式会社Bufff (長期インターン)"
   id: "bufff"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=Work+Experience"
-  url: "https://bufff.co.jp/" # 会社のURL（仮）
+  url: "https://bufff.co.jp/"
   action_label: "Visit Company"
   period: "現在勤務中"
-  role: "エンジニア (アルバイト)"
-  tech_stack: ["Unity", "Team Dev", "Real World"]
+  role: "エンジニア"
+  tech_stack: ["Unity", "C#", "Gamification", "Agile"]
   description: |
-    ゲーム開発会社にて、エンジニアとしてアルバイト勤務をしています。
-    （守秘義務の範囲内で、どのような業務に携わっているか、どういう姿勢で働いているかなどを追記予定）
+    ゲーム開発会社にて、エンジニアとして実務に携わっています。
+    エンターテインメント目的のゲームだけでなく、社会課題の解決や教育などを目的とした「ゲーミフィケーション（シリアスゲーム）」の開発を行っています。
   learning: |
-    **実務でのチーム開発**
-    学校や個人制作とは異なる、プロの現場でのコード管理、スケジュール感、チームコミュニケーションの重要性を肌で感じながらスキルアップしています。
+    **顧客視点とアジャイルな開発プロセス**
+    「作りたいものを作る」のではなく、「クライアントやユーザーの課題を解決する」という視点での開発スキルを磨いています。
+    週次でのフィードバックサイクルを通じて、仕様変更に柔軟に対応する設計力や、エンジニア以外の職種とも円滑に連携するビジネスコミュニケーション能力を養っています。
 
 - title: "MECHADOOM"
   id: "mechadoom"
