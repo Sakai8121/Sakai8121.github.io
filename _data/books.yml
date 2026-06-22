@@ -4,28 +4,28 @@
   status: "read"
   cover: "assets/images/books/AdaptiveCode.jpg"
   comment: |
-    C#実践開発手法。SOLID原則やデザインパターンを、実際の開発現場に適応させるための考え方を学びました。
+    C#実践開発手法。SOLID原則やデザインパターンをを学びました。大学3年生のときに先輩に勧められて呼んだが、完全に理解していない。時間があるときに読み直したい。
 
 - title: "ゲームフルデザイン"
   author: "Gary McLean Hall 他"
   status: "read"
   cover: "assets/images/books/ゲームフルデザイン.jpg"
   comment: |
-    ゲームのメカニズムを現実世界の問題解決に応用する考え方。ユーザー体験（UX）設計の参考にしています。
+    バイト先がゲーミフィケーションを活用しているため、勉強のために読んでみた。人間の欲求に関して言語化されていて、言われてみると確かにという発見が多かった。
 
 - title: "スクウェア・エニックスのAI"
   author: "スクウェア・エニックス"
   status: "read"
   cover: "assets/images/books/スクウェア・エニックスのAI.jpg"
   comment: |
-    実際の技術例を見てAIがどのようにゲーム制作に活かされるのかの一部を勉強できました。
+    研究室に入る前に何かきっかけになるものがあればいいと思い、読んでみた。結局、今の研究の内容はAIとは関係ないが、AIの実際の活用例をしれて勉強になった。
 
 - title: "リーダブルコード"
   author: "ダスティン・ボズウェル 他"
   status: "read"
   cover: "assets/images/books/リーダブルコード.jpg"
   comment: |
-    チーム開発における可読性の重要性を再認識した一冊。命名規則やコメントの書き方は、日々のコーディングで常に意識しています。
+    プログラマーになるなら必ず読んでおくべき本を調べて読んだ。特にコメントの役割や一度に1つのタスクという考え方をできるだけ意識するようにしている。
 
 # --- これから読む・読んでいる本 (status: reading) ---
 - title: "3Dゲームを面白くする技術"
@@ -40,7 +40,7 @@
   status: "reading"
   cover: "assets/images/books/Game Programming Patterns.jpg"
   comment: |
-    ゲーム開発特有のデザインパターン（State, Component, Flyweightなど）を習得したい。
+    ゲーム開発特有のデザインパターン（State, Component, Flyweightなど）を体系的に学習したい。
 
 - title: "セガ基礎線形代数講座"
   author: "山中 勇毅"
@@ -54,7 +54,7 @@
   status: "reading"
   cover: "assets/images/books/レベルデザインの教科書.jpg"
   comment: |
-    プレイヤーを飽きさせないマップ設計や難易度曲線の作り方を研究中。
+    レベルデザインについて学んだことがなかったので読んでみたい。
 
 - title: "ゲームを動かす技術と発想 R"
   author: "堂前 嘉樹"
