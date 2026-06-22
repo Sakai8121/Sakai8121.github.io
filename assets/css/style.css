@@ -505,3 +505,49 @@ footer {
 .screenshot-gallery img:hover {
     transform: scale(1.05);  /* マウスを乗せると少し拡大 */
 }
+
+/* =========================================
+   Hobbies Section Styles
+========================================= */
+.hobbies-grid {
+  display: grid;
+  /* スマホでは1列、PCでは3列になるレスポンシブ設定 */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.hobby-card {
+  background: var(--card-bg, #1a1a1a); /* 既存のカード背景色に合わせる（環境に合わせて変更可） */
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border: 1px solid var(--border-color, rgba(255,255,255,0.1));
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(127, 0, 255, 0.2); /* アクセントカラーの影 */
+}
+
+.hobby-icon {
+  font-size: 3rem;
+  color: #7f00ff; /* サイトのテーマカラー（紫系） */
+  margin-bottom: 15px;
+}
+
+.hobby-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: var(--text-main, #ffffff);
+}
+
+.hobby-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-sub, #cccccc);
+  text-align: left; /* 長い文章が読みやすいように左揃え */
+}
