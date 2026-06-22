@@ -1,3 +1,20 @@
+- title: "百鬼無双"
+  id: "hyakkimusou"
+  thumbnail: "assets/images/games/hyakkimusou_thumbnail.png"
+  screenshot_base: "assets/images/games/HyakkiMusou_"
+  screenshot_count: 0
+  screenshot_ext: ".png"
+  url: "https://unityroom.com/games/hyakki_musou"
+  period: "制作中 (修士1年6月から)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C＃", "3D Action"]
+  description: |
+    自分が今作れる最高の手触りを追求して制作しているゲームです。
+  learning: |
+    **カメラの制御と3Dアクションの工夫**
+   コヨーテタイムやローリング条件、壁走りの向きなどなど、様々な工夫をしています。
+   また、設計も武器、敵、ミッション、プレイヤーの挙動に拡張性を持たせるようにしています。
+    
 - title: "DarkFactory"
   id: "darkfactory"
   thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
@@ -6,7 +23,7 @@
   screenshot_ext: ".png"
   url: "https://store.steampowered.com/app/3893390/DarkFactory"
   action_label: "Steam Page"
-  period: "制作中 (リリース予定)"
+  period: "制作中 (大学4年夏ごろから)"
   role: "チーム制作 (メインプログラマー / 企画)"
   tech_stack: ["Unreal Engine 5", "C++", "Steamworks", "Multiplayer"]
   description: |
@@ -115,6 +132,43 @@
     **Androidネイティブ開発とチームマネジメント**
     始めて使う言語（Kotlin）を用いていきなりアプリを1つ完成させることは挑戦的でした。
     他のチームメンバーとどのように進めていけばいいかを相談しながら、リードプログラマとして、Gitを用いたチーム開発フローの構築や、タスクを分割して各々の状況に合わせたタスク振り分けを行いました。
+
+- title: "宇宙の果てでも石をめくる"
+  id: "understone"
+  thumbnail: "assets/images/games/understone_thumbnail.png"
+  screenshot_base: "assets/images/games/UnderStone_"
+  screenshot_count: 0
+  screenshot_ext: ".png"
+  url: "https://unityroom.com/games/understone"
+  period: "1週間 (Unity1Week)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C＃"]
+  description: |
+    分身サバイバーの反省を生かし、スコアを競う形式にし、短い時間でどんどん成長していくゲームを作ろうとしました。
+  learning: |
+    **Unity1Weekで高評価作品に載せたい**
+   分身サバイバーの反省を生かした作品を作ることで高評価作品になることを目指しました。
+   しかし、上手くいかなかった。自分が思う、失敗した要因としては、予想を裏切るような何かがなく、想像の範囲内に収まってしまった。
+
+- title: "分身サバイバー"
+  id: "clonesurvivor"
+  thumbnail: "assets/images/games/clonesurvivor_thumbnail.png"
+  screenshot_base: "assets/images/games/CloneSurvivor_"
+  screenshot_count: 0
+  screenshot_ext: ".png"
+  url: "https://unityroom.com/games/clone_survivor"
+  period: "1週間 (Unity1Week)"
+  role: "ソロ制作"
+  tech_stack: ["Unity", "C＃"]
+  description: |
+    サバイバル系ゲームにどのような追加要素があったら面白いかを考え作ってみた作品です。
+  learning: |
+    **リスクリターンをただ作ればいいってもんじゃないのか**
+   プレイヤーを分身させるほど攻撃力が高くなるが、分身すると当たり判定がでかくなるというリスクリターンがある。
+   ただ、この増やすタイミングの意思決定に明確に「ここ」っていうタイミングがないことが問題だと思っている。
+   当初は、あと少しで倒せるのに逃げて行ってしまうというときに増やすというイメージだったが、敵が多すぎたか、
+   その敵を倒すことでどれほどの報酬がもらえるのかという期待感が分かりずらいことが原因に思える。
+   もっとボスみたいなフェーズを作ってもよかったな。あと難易度調整が相変わらず難しい…
 
 - title: "Who am I"
   id: "whoami"
