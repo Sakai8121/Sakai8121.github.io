@@ -17,7 +17,7 @@
     
 - title: "DarkFactory"
   id: "darkfactory"
-  thumbnail: "https://placehold.co/600x340/1a1a1a/7f00ff?text=DarkFactory"
+  thumbnail: "assets/images/games/DarkFactory_thumbnail.png"
   screenshot_base: "assets/images/games/DarkFactory_"
   screenshot_count: 0
   screenshot_ext: ".png"
